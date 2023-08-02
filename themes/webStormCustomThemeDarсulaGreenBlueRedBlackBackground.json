@@ -68,6 +68,5 @@
     "git.confirmSync": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "terminal.integrated.fontSize": 12,
-    "tabnine.experimentalAutoImports": true,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 1
 }
