@@ -4,4 +4,4 @@
 
 ### List of themes: 📜
 
-### 1. WebStorm Darkula theme with black background, green header, blue left bar
+### 1. WebStorm Darkula 🧛 theme with black background, green header, blue left bar
