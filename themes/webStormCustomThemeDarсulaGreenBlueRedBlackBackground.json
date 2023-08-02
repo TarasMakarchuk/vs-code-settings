@@ -13,6 +13,7 @@
     "git.enableSmartCommit": true,
     "editor.fontSize": 13,
     "editor.lineHeight": 1.4,
+    "editor.fontFamily": "JetBrains Mono",
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
