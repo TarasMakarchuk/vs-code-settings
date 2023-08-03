@@ -1,6 +1,6 @@
-## VS Code settings ⚙️
+# VS Code settings and themes⚙️
 
-## List of themes: 📜
+# List of themes: 📜
 
 ## 1. WebStorm Darkula 🧛 theme with black background, green header, blue left bar.
 
