@@ -55,7 +55,7 @@
         "tree.tableOddRowsBackground": "#ff0000",
         "editorGutter.background": "#111111",
 
-        "gitDecoration.modifiedResourceForeground": "#f5492e",
+        "gitDecoration.modifiedResourceForeground": "#09be03",
         "gitDecoration.untrackedResourceForeground":"#06f72e",
         "gitDecoration.submoduleResourceForeground":"#4e06f7",
         "gitDecoration.ignoredResourceForeground":"#06a7f7",
