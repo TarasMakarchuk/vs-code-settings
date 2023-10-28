@@ -208,6 +208,7 @@
 		"terminal.integrated.fontSize": 12,
 		"terminal.integrated.env.windows": {},
 		"terminal.integrated.tabs.enabled": false,
+		"window.onload": "vscode:open-integrated-terminal", // always open VSCode with a terminal
 
 		"sideBar.background": "#272727",
 

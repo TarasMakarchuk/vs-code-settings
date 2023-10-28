@@ -30,7 +30,6 @@
 // huizhou.githd
 // iceworks-team.iceworks-style-helper
 // imekachi.webstorm-darcula
-// intellsmi.comment-translate
 // izcream.darkula
 // k--kato.intellij-idea-keybindings
 // kisstkondoros.vscode-gutter-preview
