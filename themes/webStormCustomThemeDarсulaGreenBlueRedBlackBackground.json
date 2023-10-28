@@ -203,11 +203,12 @@
 		"editorGroup.border": "#A4BD00",
 		"editor.selectionBackground": "#02028f",
 
-		//* Terminal settings
+		//*Terminal settings
 		"terminal.background": "#111111",
 		"terminal.integrated.fontSize": 12,
 		"terminal.integrated.env.windows": {},
 		"terminal.integrated.tabs.enabled": false,
+		"terminal.integrated.defaultProfile.windows": "PowerShell",
 		"window.onload": "vscode:open-integrated-terminal", // always open VSCode with a terminal
 
 		"sideBar.background": "#272727",
