@@ -1,73 +1,142 @@
 {
-    "workbench.colorTheme": "Webstorm Darcula 2022",
-    "tabnine.experimentalAutoImports": true,
-    "workbench.iconTheme": "vscode-icons",
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "git.autofetch": true,
-    "files.autoSave": "onFocusChange",
-    "git.enableSmartCommit": true,
-    "editor.fontSize": 13,
-    "editor.lineHeight": 1.4,
-    "editor.fontFamily": "JetBrains Mono",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "yaml.schemas": {
-        "file:///c%3A/Users/User/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-    },
-    "prettier.jsxSingleQuote": true,
-    "prettier.singleQuote": true,
-    "window.commandCenter": true,
-    "workbench.colorCustomizations": {
-        "editor.background": "#000000",
-        "activityBar.background": "#0f005cf7",
-        "activityBar.foreground": "#ff0000",
-        "activityBar.activeBackground": "#262627",
-        "statusBar.background": "#000000",
-        "statusBar.foreground": "#bbc4bd",
-        "titleBar.activeBackground": "#06f72e",
-        "titleBar.inactiveBackground": "#c4d16e",
-        "menu.background": "#111111",
-        "titleBar.activeForeground": "#000000",
-        "editor.selectionHighlightBackground": "#b8a01950",
-        "editorGroup.border": "#A4BD00",
-        "editor.selectionBackground": "#02028f",
-        "terminal.background": "#111111",
-        "sideBar.background": "#111111",
-        "banner.background": "#111111",
-        "breadcrumb.background": "#020169",
-        "menu.border": "#020169",
-        "tab.activeBackground": "#0d0070",
-        "tab.activeBorder": "#ff0000",
-        "tab.inactiveBackground": "#222222",
-        "badge.background": "#680101",
-        "badge.foreground": "#dbd7d7",
-        "minimap.background": "#01032b",
-        "panel.background": "#222222",
-        "scrollbarSlider.background": "#53010171",
-        "scrollbarSlider.hoverBackground": "#53010171",
-        "scrollbarSlider.activeBackground": "#53010171",
-        "tree.tableOddRowsBackground": "#ff0000",
-        "editorGutter.background": "#111111",
+  "workbench.colorTheme": "Webstorm Darcula 2022",
+  "tabnine.experimentalAutoImports": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "window.openFoldersInNewWindow": "on",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "files.autoSave": "onFocusChange",
+  "git.enableSmartCommit": true,
+  "editor.lineHeight": 1.6,
+  "editor.fontFamily": "JetBrains Mono",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "yaml.schemas": {
+    "file:///c%3A/Users/User/.vscode/extensions/atlassian.atlascode-3.0.7/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "window.commandCenter": true,
 
-        "gitDecoration.modifiedResourceForeground": "#09be03",
-        "gitDecoration.untrackedResourceForeground":"#06f72e",
-        "gitDecoration.submoduleResourceForeground":"#4e06f7",
-        "gitDecoration.ignoredResourceForeground":"#06a7f7",
-        "gitDecoration.deletedResourceForeground":"#818384",
-        "gitDecoration.addedResourceForeground":"#f80909",
-        "gitDecoration.stageModifiedResourceForeground":"#003f02"
-},
-    "editor.tabSize": 2,
-    "editor.insertSpaces": true,
-    "editor.hover.enabled": false,
-    "git.confirmSync": false,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "terminal.integrated.fontSize": 12,
-    "window.zoomLevel": 1
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+
+  "http.proxySupport": "fallback",
+
+  "workbench.colorCustomizations": {
+    "editor.background": "#181818",
+
+    "activityBar.background": "#0f005cf7",
+    "activityBar.foreground": "#ff0000",
+    "activityBar.activeBackground": "#262627",
+    "statusBar.background": "#242424",
+    "statusBar.foreground": "#bbc4bd",
+    "titleBar.activeBackground": "#06f72e",
+    "titleBar.inactiveBackground": "#c4d16e",
+    "menu.background": "#111111",
+    "titleBar.activeForeground": "#000000",
+    "editor.selectionHighlightBackground": "#b8a01950",
+    "editorGroup.border": "#A4BD00",
+    "editor.selectionBackground": "#02028f",
+    "terminal.background": "#111111",
+
+    "sideBar.background": "#272727",
+
+    "banner.background": "#111111",
+    "breadcrumb.background": "#020169",
+    "menu.border": "#020169",
+    "tab.activeBackground": "#0d0070",
+    "tab.activeBorder": "#ff0000",
+    "tab.inactiveBackground": "#222222",
+    "badge.background": "#680101",
+    "badge.foreground": "#dbd7d7",
+    "panel.background": "#1d1d1d",
+    "scrollbarSlider.background": "#53010171",
+    "scrollbarSlider.hoverBackground": "#53010171",
+    "scrollbarSlider.activeBackground": "#53010171",
+    "tree.tableOddRowsBackground": "#ff0000",
+
+    "editorGutter.background": "#242424",
+
+    "gitDecoration.modifiedResourceForeground": "#09be03",
+    "gitDecoration.untrackedResourceForeground": "#06f72e",
+    "gitDecoration.submoduleResourceForeground": "#4e06f7",
+    "gitDecoration.ignoredResourceForeground": "#06a7f7",
+    "gitDecoration.deletedResourceForeground": "#818384",
+    "gitDecoration.addedResourceForeground": "#f80909",
+    "gitDecoration.stageModifiedResourceForeground": "#003f02",
+    "cSpell.language": "en, ua, uk",
+
+    "minimap.background": "#01032b",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false
+  },
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.hover.enabled": false,
+  "git.confirmSync": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.fontSize": 12,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.enabled": false,
+
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#bdff00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "editor.fontLigatures": false,
+  "terminal.integrated.env.windows": {},
+  "editor.fontVariations": false
 }
