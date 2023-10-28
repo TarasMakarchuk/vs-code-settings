@@ -89,6 +89,24 @@
 	//* Editor snippets
 	"editor.snippetSuggestions": "top", // alway top my custom snippets
 
+	//* Editor change color methods, text and others...
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": ["entity.name.function"],
+				"settings": {
+					"foreground": "#ffe75ee1"
+				}
+			},
+			{
+				"scope": ["string.quoted.single"],
+				"settings": {
+					"foreground": "#07c701de"
+				}
+			}
+		]
+	},
+
 	//* Explorer
 	"explorer.compactFolders": false, // false union 2 folders in 1
 	"explorer.confirmDragAndDrop": false,
