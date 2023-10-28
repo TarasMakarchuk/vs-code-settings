@@ -198,7 +198,7 @@
 	//* Spell check
 	"cSpell.language": "en, ua, uk",
 	"cSpell.enabled": true,
-	"cSpell.userWords": ["antd", "axios", "clsx", "darcula"],
+	"cSpell.userWords": ["antd", "axios", "clsx", "darcula", "nestjs"],
 	"cSpell.enableFiletypes": [
 		"blade",
 		"jsx",
