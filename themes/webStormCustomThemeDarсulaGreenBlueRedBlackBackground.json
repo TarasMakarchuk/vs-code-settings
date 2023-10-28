@@ -95,13 +95,13 @@
 			{
 				"scope": ["entity.name.function"],
 				"settings": {
-					"foreground": "#ffe75ee1"
+					"foreground": "##FFA000" // default in WebStorm darcula theme color #FFA000
 				}
 			},
 			{
 				"scope": ["string.quoted.single"],
 				"settings": {
-					"foreground": "#07c701de"
+					"foreground": "#07c701de" // default in WebStorm darcula theme color #6A8759
 				}
 			}
 		]
