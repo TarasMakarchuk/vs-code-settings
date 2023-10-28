@@ -23,7 +23,7 @@
 	"breadcrumbs.showEnumMembers": true,
 	"breadcrumbs.showConstructors": true,
 
-	//* Editor configuration
+	//* Editor
 	"editor.rulers": [110],
 	"workbench.colorCustomizations": {
 		"editorRuler.foreground": "#cccccc"
@@ -79,15 +79,15 @@
 	"editor.unicodeHighlight.ambiguousCharacters": false,
 	"editor.quickSuggestionsDelay": 0,
 	"editor.hideCursorInOverviewRuler": true,
-	"editor.glyphMargin": false, // Editor fit editor's left side bar with number lines
+	"editor.glyphMargin": true, // Editor true - fit/thin, false - fate, editor's left side bar with number lines glyphMargin
 	//* Editor appearance
 	"editor.cursorBlinking": "expand",
 	"editor.bracketPairColorization.enabled": true,
 	"editor.scrollbar.horizontal": "hidden",
 	"editor.scrollbar.vertical": "visible",
 	"editor.scrollbar.vertical": "visible",
-
-	"window.openFoldersInNewWindow": "on",
+	//* Editor snippets
+	"editor.snippetSuggestions": "top", // alway top my custom snippets
 
 	//* Explorer
 	"explorer.compactFolders": false, // false union 2 folders in 1
@@ -161,6 +161,10 @@
 	"javascript.suggest.paths": false,
 	"typescript.suggest.paths": false,
 
+	//* Open VSCode project
+	"window.openFoldersInNewWindow": "on", // Open recent VSCode project at new window
+	"window.newWindowDimensions": "maximized", // pen recent VSCode project at window with maximum size
+
 	//* Spell check
 	"cSpell.language": "en, ua, uk",
 	"cSpell.enabled": true,
@@ -203,7 +207,7 @@
 		"editorGroup.border": "#A4BD00",
 		"editor.selectionBackground": "#02028f",
 
-		//*Terminal settings
+		//* Terminal settings
 		"terminal.background": "#111111",
 		"terminal.integrated.fontSize": 12,
 		"terminal.integrated.env.windows": {},
