@@ -99,7 +99,19 @@
 				}
 			},
 			{
-				"scope": ["string.quoted.single"],
+				"scope": ["string.quoted.single"], // for ''
+				"settings": {
+					"foreground": "#07c701de" // default in WebStorm darcula theme color #6A8759
+				}
+			},
+			{
+				"scope": ["string.quoted.double"], // for ""
+				"settings": {
+					"foreground": "#07c701de" // default in WebStorm darcula theme color #6A8759
+				}
+			},
+			{
+				"scope": ["string.template"], // for ``
 				"settings": {
 					"foreground": "#07c701de" // default in WebStorm darcula theme color #6A8759
 				}
@@ -186,7 +198,7 @@
 	//* Spell check
 	"cSpell.language": "en, ua, uk",
 	"cSpell.enabled": true,
-	"cSpell.userWords": ["antd", "axios", "clsx"],
+	"cSpell.userWords": ["antd", "axios", "clsx", "darcula"],
 	"cSpell.enableFiletypes": [
 		"blade",
 		"jsx",
@@ -269,6 +281,7 @@
 	"git.confirmSync": false,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 
+	//* Mimnimap
 	"editor.minimap.renderCharacters": false,
 	"editor.minimap.enabled": false,
 
