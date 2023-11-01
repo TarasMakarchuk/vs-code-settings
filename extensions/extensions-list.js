@@ -1,11 +1,12 @@
 //* Useful extension
 
-// aaron - bond.better - comments
+// aaron-bond.better-comments
 // arturock.gitstash
 // atlassian.atlascode
 // bierner.markdown-emoji
 // bradlc.vscode-tailwindcss
 // BriteSnow.vscode-toggle-quotes
+// chadalen.vscode-jetbrains-icon-theme
 // christian-kohler.path-intellisense
 // circlecodesolution.ccs-flutter-color
 // codeSTACKr.codestackr-theme
@@ -68,6 +69,7 @@
 // vscode-icons-team.vscode-icons
 // vunguyentuan.vscode-postcss
 // WallabyJs.console-ninja
+// wayou.vscode-icons-mac
 // wix.vscode-import-cost
 // Wscats.eno
 // xabikos.JavaScriptSnippets

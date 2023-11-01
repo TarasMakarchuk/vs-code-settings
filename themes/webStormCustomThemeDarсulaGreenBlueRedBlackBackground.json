@@ -1,8 +1,25 @@
 {
+	//* Sidebar font size change only window.zoomLevel
+	"window.zoomLevel": -0.3,
+	"editor.fontSize": 13.4,
+	"editor.letterSpacing": 0.6,
+
+	//* Terminal settings
+	"terminal.integrated.env.windows": {},
+	"terminal.integrated.tabs.enabled": true, // show many terminals right side
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"terminal.integrated.fontSize": 13,
+	//* Terminal ctrl+c/v
+	"terminal.integrated.copyOnSelection": true,
+	"terminal.integrated.commandsToSkipShell": [
+		"-workbench.action.terminal.copySelection",
+		"-workbench.action.terminal.paste"
+	],
+
 	//* Workbench
 	"workbench.colorTheme": "Webstorm Darcula",
 	"tabnine.experimentalAutoImports": true,
-	"workbench.iconTheme": "material-icon-theme",
+	"workbench.iconTheme": "vscode-jetbrains-icon-theme",
 	"workbench.layoutControl.enabled": false,
 	"workbench.editor.tabSizing": "shrink",
 	// "workbench.activityBar.visible": false,
@@ -24,12 +41,12 @@
 	"breadcrumbs.showConstructors": true,
 
 	//* Editor
-	"editor.rulers": [110],
+	"editor.rulers": [130],
 	"workbench.colorCustomizations": {
 		"editorRuler.foreground": "#cccccc"
 	},
 
-	"editor.lineHeight": 1.6,
+	"editor.lineHeight": 1.7,
 	"editor.fontFamily": "JetBrains Mono",
 	// "editor.fontFamily": "Dark Mono,IBM Plex Mono",
 	"editor.tokenColorCustomizations": {
@@ -73,7 +90,7 @@
 	// "editor.wordWrap": "bounded",
 	"editor.suggestSelection": "first",
 	"editor.detectIndentation": true,
-	"editor.scrollBeyondLastLine": true,
+	"editor.scrollBeyondLastLine": false, // allow scrolling above the first line
 	"editor.multiCursorModifier": "ctrlCmd",
 	"editor.renderControlCharacters": false,
 	"editor.unicodeHighlight.ambiguousCharacters": false,
@@ -88,6 +105,8 @@
 	"editor.scrollbar.vertical": "visible",
 	//* Editor snippets
 	"editor.snippetSuggestions": "top", // alway top my custom snippets
+	//* Editor add empty last line
+	"files.insertFinalNewline": true,
 
 	//* Editor change color methods, text and others...
 	"editor.tokenColorCustomizations": {
@@ -95,25 +114,23 @@
 			{
 				"scope": ["entity.name.function"],
 				"settings": {
-					"foreground": "##FFA000" // default in WebStorm darcula theme color #FFA000
+					"foreground": "##FFC66D" // default in WebStorm darcula theme color #FFC66D
 				}
 			},
 			{
-				"scope": ["string.quoted.single"], // for ''
+				"scope": ["string.template", "string.quoted"], // for ``
 				"settings": {
-					"foreground": "#07c701de" // default in WebStorm darcula theme color #6A8759
+					"foreground": "#6A8759" // default in WebStorm darcula theme color #6A8759
 				}
 			},
 			{
-				"scope": ["string.quoted.double"], // for ""
+				"scope": [
+					"entity.name.tag",
+					"entity.name.tag.jsx",
+					"entity.name.tag.tsx"
+				],
 				"settings": {
-					"foreground": "#07c701de" // default in WebStorm darcula theme color #6A8759
-				}
-			},
-			{
-				"scope": ["string.template"], // for ``
-				"settings": {
-					"foreground": "#07c701de" // default in WebStorm darcula theme color #6A8759
+					// "foreground": "#FFD700",
 				}
 			}
 		]
@@ -198,7 +215,15 @@
 	//* Spell check
 	"cSpell.language": "en, ua, uk",
 	"cSpell.enabled": true,
-	"cSpell.userWords": ["antd", "axios", "clsx", "darcula", "nestjs"],
+	"cSpell.userWords": [
+		"antd",
+		"axios",
+		"clsx",
+		"darcula",
+		"nestjs",
+		"reactflow",
+		"toastify"
+	],
 	"cSpell.enableFiletypes": [
 		"blade",
 		"jsx",
@@ -237,14 +262,7 @@
 		"editorGroup.border": "#A4BD00",
 		"editor.selectionBackground": "#02028f",
 
-		//* Terminal settings
-		"terminal.background": "#111111",
-		"terminal.integrated.fontSize": 12,
-		"terminal.integrated.env.windows": {},
-		"terminal.integrated.tabs.enabled": false,
-		"terminal.integrated.defaultProfile.windows": "PowerShell",
-		"window.onload": "vscode:open-integrated-terminal", // always open VSCode with a terminal
-
+		//* Sidebar
 		"sideBar.background": "#272727",
 
 		"banner.background": "#111111",
@@ -263,17 +281,37 @@
 
 		"editorGutter.background": "#242424",
 
-		"gitDecoration.modifiedResourceForeground": "#09be03",
-		"gitDecoration.untrackedResourceForeground": "#06f72e",
-		"gitDecoration.submoduleResourceForeground": "#4e06f7",
-		"gitDecoration.ignoredResourceForeground": "#06a7f7",
-		"gitDecoration.deletedResourceForeground": "#818384",
-		"gitDecoration.addedResourceForeground": "#f80909",
-		"gitDecoration.stageModifiedResourceForeground": "#003f02",
+		//* Terminal settings
+		"terminal.background": "#111111",
+		"window.onload": "vscode:open-integrated-terminal", // always open VSCode with a terminal
 
 		"minimap.background": "#01032b",
 		"editor.minimap.renderCharacters": false,
-		"editor.minimap.enabled": false
+		"editor.minimap.enabled": false,
+
+		//*Git file colors
+		"gitDecoration.untrackedResourceForeground": "#af6b64", // git untraced new files, before git add WebStorm default #D1675A
+		"gitDecoration.stagedResourceForeground": "#629755", // tracked files, after git add WebStorm default #629755
+		"gitDecoration.untrackedFolderForeground": "#53595d", // color for folders
+		"gitDecoration.modifiedResourceForeground": "#629755",
+		"gitDecoration.submoduleResourceForeground": "#4e06f7",
+		"gitDecoration.deletedResourceForeground": "#818384",
+		"gitDecoration.stageModifiedResourceForeground": "#003f02",
+
+		//*Gitignore text folder color
+		"gitDecoration.ignoredResourceForeground": "#848504", // WebStorm default #848504
+
+		//* Terminal ctrl+c/v
+		"terminal.integrated.keyboardShortcuts": [
+			{
+				"command": "workbench.action.terminal.copySelection",
+				"key": "ctrl+c"
+			},
+			{
+				"command": "workbench.action.terminal.paste",
+				"key": "ctrl+v"
+			}
+		]
 	},
 	"editor.tabSize": 2,
 	"editor.insertSpaces": true,
@@ -284,6 +322,12 @@
 	//* Mimnimap
 	"editor.minimap.renderCharacters": false,
 	"editor.minimap.enabled": false,
+
+	//* Git leans show author file
+	"gitlens.codeLens.enabled": false,
+	"gitlens.currentLine.enabled": false,
+	"gitlens.hovers.currentLine.over": "line",
+	"gitlens.hovers.currentLine.enabled": false,
 
 	"better-comments.tags": [
 		{
@@ -335,5 +379,6 @@
 	"editor.fontLigatures": false,
 	"editor.fontVariations": false,
 	"console-ninja.featureSet": "Community",
-	"terminal.integrated.env.windows": {}
+	"terminal.integrated.env.windows": {},
+	"material-icon-theme.folders.color": "#26a69a"
 }
