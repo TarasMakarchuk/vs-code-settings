@@ -17,7 +17,7 @@
   ],
 
   //* Workbench
-  "workbench.colorTheme": "Webstorm Darcula",
+  "workbench.colorTheme": "Webstorm Darcula 2022",
   "tabnine.experimentalAutoImports": true,
   "workbench.iconTheme": "vscode-jetbrains-icon-theme",
   "workbench.layoutControl.enabled": false,
@@ -101,7 +101,6 @@
   "editor.cursorBlinking": "expand",
   "editor.bracketPairColorization.enabled": true,
   "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "visible",
   "editor.scrollbar.vertical": "visible",
   //* Editor snippets
   "editor.snippetSuggestions": "top", // alway top my custom snippets
@@ -222,7 +221,9 @@
     "darcula",
     "nestjs",
     "reactflow",
-    "toastify"
+    "toastify",
+    "сron",
+    "scroller"
   ],
   "cSpell.enableFiletypes": [
     "blade",
@@ -247,6 +248,10 @@
   "http.proxySupport": "fallback",
 
   "workbench.colorCustomizations": {
+    //* Empty imports check
+    "javascript.showUnused": true,
+    "typescript.showUnused": true,
+
     "editor.background": "#181818",
 
     "activityBar.background": "#0f005cf7",
@@ -313,6 +318,7 @@
       }
     ]
   },
+
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.hover.enabled": false,
@@ -380,5 +386,18 @@
   "editor.fontVariations": false,
   "console-ninja.featureSet": "Community",
   "terminal.integrated.env.windows": {},
-  "material-icon-theme.folders.color": "#26a69a"
+  "material-icon-theme.folders.color": "#26a69a",
+  "atlascode.jira.lastCreateSiteAndProject": {
+    "siteId": "",
+    "projectKey": ""
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.stickyScroll.enabled": false,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "workbench.settings.applyToAllProfiles": [],
+  "vscode-pets.petSize": "medium"
 }
